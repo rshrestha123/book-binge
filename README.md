@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 # Book Binger
-Start with a near-empty React (Next.js) project and end with a fully functional book search and list management system. This project uses the [Open Library API](https://openlibrary.org/developers/api) to retrieve book data and cover images. The code-along teaches key React concepts like how to handle API calls, using TypeScript to type models and interfaces, and how to manage state and props. You will also practice conditional rendering and adding styles using SCSS, including responsive styling. Finally, the project teaches a very basic implementation of Next.js to create static pages, as well as using React-intl to localize your application.
+Start with a near-empty React (Next.js) project and end with a book search and list management system. This project uses the [Open Library API](https://openlibrary.org/developers/api) to retrieve book data and cover images. The code-along teaches key React concepts like how to handle API calls, using TypeScript to type models and interfaces, and how to manage state and props. You will also practice conditional rendering and adding styles using SCSS, including responsive styling. Finally, the project teaches a very basic implementation of Next.js to create static pages, as well as using React-intl to localize your application.
 
 ## Getting Started
 

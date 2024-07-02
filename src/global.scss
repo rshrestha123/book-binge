@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --alert-purple: #865CFF;
+  --bright-teal: #0A838C;
+  --dark-gray: #3C3C3C;
+  --lavender: #D6D3F0;
+  --lavender-wash: #EEEDF9;
+  --midnight-green: #0F5257;
+  --prussian-blue: #0B3142;
+  --rose-quartz: #9C92A3;
+  --thistle: #C6B9CD;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+
+  margin: 0;
+  box-sizing: border-box;
+
+  h1 {
+    color: var(--lavender);
+    font-family: "Bitter", serif;
+    font-weight: 900;
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    font-variant: all-small-caps;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-family: "Bitter", serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+}
