@@ -33,6 +33,26 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+
+        .robotoFont {
+          font-size: 1.75rem;
+          color: var(--bright-teal);
+          font-family: 'Roboto', sans-serif;
+        }
+
+        .ralewayFont {
+          font-size: 1.75rem;
+          font-weight: 500;
+          color: var(--bright-teal);
+          font-family: 'Raleway', sans-serif;
+        }
+
+        .bitterFont {
+          font-size: 1.75rem;
+          font-weight: 700;
+          color: var(--bright-teal);
+          font-family: 'Bitter', serif;
+        }
       }
     }
 
