@@ -1,0 +1,19 @@
+.sandboxContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  background-color: #fffaf6;
+
+
+  h1 {
+    color: var(--lavender);
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 1rem 2rem 1rem 3rem;
+  }
+
+  .lessonLink {
+    align-self: end;
+  }
+}
