@@ -2,6 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 # Book Binge
 Start with a near-empty React (Next.js) project and end with a book search and list management system. This project uses the [Open Library API](https://openlibrary.org/developers/api) to retrieve book data and cover images. The code-along teaches key React concepts like how to handle API calls, using TypeScript to type models and interfaces, and how to manage state and props. You will also practice conditional rendering and adding styles using SCSS, including responsive styling. Finally, the project teaches a very basic implementation of Next.js to create static pages, as well as using React-intl to localize your application.
 
+### Lesson Contents
+[Introduction](#-Develop-the-Book-Binge-App)  
+[Lesson One: Create a Navbar and add Next Pages](##-Lesson-One:-Create-a-Navbar-and-add-Next-Pages)  
+[Lesson Two: Add styles and responsive behavior](##-Lesson-Two:-Add-styles-and-responsive-behavior)  
+[Lesson Three: Add a search bar and API call](##-Lesson-Three:-Add-a-search-bar-and-API-call)  
+[Lesson Four: Create a reusable List Item card](##-Lesson-Four:-Create-a-reusable-list-item-card)
+
 ## Prerequisites
 
 You should have a basic grasp of the foundational concepts presented in **React**’s first two _Learn React_ chapters: [Describing the UI](https://react.dev/learn/describing-the-ui) and [Adding Interactivity](https://react.dev/learn/adding-interactivity).
@@ -43,7 +50,7 @@ To simulate using 3rd-party or in-house UI libraries, this project comes with a 
 
 ## Lesson One: Create a Navbar and add Next Pages
 
-## Lessono Two: Add styles and responsive behavior
+## Lesson Two: Add styles and responsive behavior
 
 ## Lesson Three: Add a search bar and API call
 
