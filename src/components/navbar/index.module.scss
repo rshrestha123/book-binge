@@ -1,0 +1,44 @@
+@import "../../_variables.scss";
+
+.navbar {
+  background: #0F5257;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+
+  .icon {
+    color: var(--lavender);
+    font-size: 4rem;
+    margin: 1.25rem 1rem 0;
+
+    @media (max-width: $phone-max) {
+      font-size: 3rem;
+      margin: 1rem .75rem 0 0;
+    }
+  }
+
+  .appName {
+    color: var(--lavender);
+    font-family: "Bitter", serif;
+    font-size: 4rem;
+    font-weight: 800;
+    text-decoration: none;
+
+    @media (max-width: $phone-max) {
+      font-size: 3rem;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+
+    @media (max-width: $phone-max) {
+      flex-direction: column;
+      padding: 0
+    }
+    }
+}
