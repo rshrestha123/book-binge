@@ -1,8 +1,11 @@
-export default function MainContainer() {
-  return (
-    <>
-      <h1>Book Binge</h1>
-      Your app goes here.
-    </>
-  );
+import Navbar from "@/components/navbar";
+import { PropsWithChildren } from "react";
+
+export default function MainContainer({children}: Readonly<PropsWithChildren>) {
+    return (
+        <>
+            <Navbar/>
+            {children}
+        </>
+    );
 }
