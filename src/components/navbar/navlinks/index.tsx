@@ -1,5 +1,6 @@
 import { UrlObject } from "node:url";
 import Link from "next/link";
+import styles from "./index.module.scss";
 
 type NavlinkProps = {
     displayText: string;
@@ -7,6 +8,6 @@ type NavlinkProps = {
 }
 export default function NavLinks({ displayText, linkPath }: Readonly<NavlinkProps>) {
     return (
-        <Link href ={linkPath}>{displayText}</Link>
+        <Link href ={linkPath}  className={styles.navlink}>{displayText}</Link>
     );
 }
