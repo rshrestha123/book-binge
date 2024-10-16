@@ -1,0 +1,13 @@
+.navbar {
+  background: #0b3142;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1.875rem;
+
+  .searchBarContainer {
+    width: 100%;
+    max-width: 794px;
+  }
+}

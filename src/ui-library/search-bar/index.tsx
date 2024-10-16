@@ -7,7 +7,10 @@ type SearchBarProps = {
   placeholderText?: string;
 };
 
-export default function SearchBar({ onSearchCallback, placeholderText = "" }: SearchBarProps) {
+export default function SearchBar({
+  onSearchCallback,
+  placeholderText = "",
+}: Readonly<SearchBarProps>) {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const searchTerm = (document.getElementById("search-bar-input-field") as HTMLInputElement)
